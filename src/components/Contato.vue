@@ -11,7 +11,7 @@
       <div class="social">
 
         <!-- EMAIL -->
-        <a href="mailto:kaique_batista@outlook.com">
+        <a href="mailto:kaiquebatista22@gmail.com">
           <span class="icone email">✉</span>
           <span>Email</span>
         </a>
@@ -34,7 +34,7 @@
 
         <!-- LINKEDIN -->
         <a
-          href="https://www.linkedin.com/in/kaique-batista-167aa5349"
+          href="https://www.linkedin.com/in/kaique-oliveira-batista"
           target="_blank"
           rel="noopener noreferrer"
         >

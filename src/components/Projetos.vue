@@ -80,6 +80,44 @@
 const projetos = [
 
   {
+    titulo: "Player Experience",
+
+    descricao:
+      "Plataforma gamer desenvolvida com React e TypeScript, com páginas de cadastro, login, dashboard e planos de acesso, utilizando navegação entre rotas e validação de formulários.",
+
+    tecnologias:
+      "React • TypeScript • Vite • Tailwind CSS • React Router • Vitest",
+
+    imagem:
+      "/player.jpg",
+
+    github:
+      "https://github.com/KaiqueBatista/Player-Experience",
+
+    demo:
+      "https://playerexperience.vercel.app/"
+  },
+
+  {
+    titulo: "LanchesJá",
+
+    descricao:
+      "Sistema de lanchonete desenvolvido em React, com catálogo de produtos, detalhes dos lanches e carrinho de compras.",
+
+    tecnologias:
+      "React • TypeScript • Vite • CSS • Vitest",
+
+    imagem:
+      "/lanchesja.jpg",
+
+    github:
+      "https://github.com/KaiqueBatista/LanchesJ-",
+
+    demo:
+      "https://lanches-ja.vercel.app/"
+  },
+
+  {
     titulo: "E-commerce",
 
     descricao:
@@ -97,7 +135,6 @@ const projetos = [
     demo:
       "https://ecommerce-seven-iota-36.vercel.app/"
   },
-
 
   {
     titulo: "Catálogo de Filmes",
@@ -157,26 +194,6 @@ const projetos = [
     demo:
       "https://sistema-de-chamados-mu.vercel.app/"
   },
-
-  {
-    titulo: "LanchesJá",
-
-    descricao:
-      "Sistema de lanchonete desenvolvido em React, com catálogo de produtos, detalhes dos lanches e carrinho de compras.",
-
-    tecnologias:
-      "React • TypeScript • Vite • CSS",
-
-    imagem:
-      "/lanchesja.jpg",
-
-    github:
-      "https://github.com/KaiqueBatista/LanchesJ-",
-
-    demo:
-      "https://lanches-ja.vercel.app/"
-  },
-
 
   {
     titulo: "Controle Financeiro",

@@ -1,3 +1,4 @@
+
 <template>
   <section id="skills" class="skills">
     <div class="container">
@@ -8,8 +9,6 @@
       </p>
 
       <div class="grid">
-
-        <!-- FRONT-END -->
         <div class="card">
           <i class="devicon-html5-plain colored"></i>
           <p>HTML</p>
@@ -40,7 +39,11 @@
           <p>TypeScript</p>
         </div>
 
-        <!-- API -->
+        <div class="card">
+          <i class="devicon-tailwindcss-original colored"></i>
+          <p>Tailwind CSS</p>
+        </div>
+
         <div class="card">
           <i class="devicon-postman-plain colored"></i>
           <p>API REST</p>
@@ -51,7 +54,11 @@
           <p>Axios</p>
         </div>
 
-        <!-- FERRAMENTAS -->
+        <div class="card">
+          <i class="devicon-vitest-plain colored"></i>
+          <p>Vitest</p>
+        </div>
+
         <div class="card">
           <i class="devicon-git-plain colored"></i>
           <p>Git</p>
@@ -61,7 +68,6 @@
           <i class="devicon-github-original"></i>
           <p>GitHub</p>
         </div>
-
       </div>
     </div>
   </section>
@@ -70,125 +76,72 @@
 <style scoped>
 .skills {
   width: 100%;
-
   padding: 100px 8%;
-
   background: #0F172A;
-
   text-align: center;
 }
 
 .container {
   width: 100%;
   max-width: 1100px;
-
   margin: 0 auto;
 }
 
-/* =========================
-   TÍTULO
-========================= */
-
 h2 {
   color: #3B82F6;
-
   font-size: clamp(30px, 4vw, 40px);
-
   margin-bottom: 10px;
 }
 
 .subtitulo {
   color: #94A3B8;
-
   font-size: clamp(14px, 2vw, 16px);
-
   line-height: 1.6;
-
   margin-bottom: 50px;
 }
 
-/* =========================
-   GRID
-========================= */
-
 .grid {
   display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(160px, 1fr));
-
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
 }
 
-/* =========================
-   CARD
-========================= */
-
 .card {
   min-height: 150px;
-
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
-
   gap: 12px;
-
   padding: 25px 20px;
-
   background: #111827;
-
   border: 1px solid transparent;
-
   border-radius: 12px;
-
   cursor: pointer;
-
-  transition:
-    transform 0.3s,
-    border-color 0.3s,
-    box-shadow 0.3s;
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
-
-/* ÍCONES */
 
 .card i {
   font-size: 48px;
-
   line-height: 1;
-
   transition: transform 0.3s;
 }
 
-/* TEXTO */
-
 .card p {
   color: #E2E8F0;
-
   font-size: 16px;
-
   font-weight: 500;
 }
 
-/* HOVER */
-
 .card:hover {
   transform: translateY(-5px);
-
   border-color: #3B82F6;
-
-  box-shadow:
-    0 10px 25px rgba(59, 130, 246, 0.25);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
 }
 
 .card:hover i {
   transform: scale(1.1);
 }
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 768px) {
   .skills {
@@ -196,15 +149,12 @@ h2 {
   }
 
   .grid {
-    grid-template-columns:
-      repeat(3, minmax(120px, 1fr));
-
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 15px;
   }
 
   .card {
     min-height: 140px;
-
     padding: 20px 15px;
   }
 
@@ -212,10 +162,6 @@ h2 {
     font-size: 42px;
   }
 }
-
-/* =========================
-   CELULAR
-========================= */
 
 @media (max-width: 600px) {
   .skills {
@@ -227,14 +173,12 @@ h2 {
   }
 
   .grid {
-    grid-template-columns: repeat(2, 1fr);
-
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
   }
 
   .card {
     min-height: 130px;
-
     padding: 20px 10px;
   }
 
@@ -246,10 +190,6 @@ h2 {
     font-size: 14px;
   }
 }
-
-/* =========================
-   CELULAR PEQUENO
-========================= */
 
 @media (max-width: 380px) {
   .skills {
@@ -270,16 +210,10 @@ h2 {
   }
 }
 
-/* =========================
-   TOUCH
-========================= */
-
 @media (hover: none) {
   .card:hover {
     transform: none;
-
     box-shadow: none;
-
     border-color: transparent;
   }
 

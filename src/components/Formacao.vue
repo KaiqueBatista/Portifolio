@@ -22,19 +22,6 @@
       <h2 class="subtitulo">Cursos Complementares</h2>
 
       <div class="card">
-        <h3>Vue.js</h3>
-        <p>Cursa</p>
-        <p>Em andamento</p>
-        <a
-          href="https://cursa.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ver instituição
-        </a>
-      </div>
-
-      <div class="card">
         <h3>JavaScript</h3>
         <p>Alura</p>
         <a

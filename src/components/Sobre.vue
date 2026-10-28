@@ -1,3 +1,4 @@
+
 <template>
   <section id="sobre" class="sobre">
     <div class="container">
@@ -5,19 +6,24 @@
 
       <div class="textos">
         <p>
-          Sou estudante de Análise e Desenvolvimento de Sistemas e venho construindo minha trajetória na tecnologia com foco em Front-End. 
-          Gosto de transformar ideias em interfaces funcionais e agradáveis de usar.
+          Sou estudante de Análise e Desenvolvimento de Sistemas,
+          com foco no desenvolvimento Front-End. Tenho interesse em
+          criar interfaces funcionais, responsivas e com boa
+          experiência para o usuário.
         </p>
 
         <p>
-          Tenho buscado consolidar meus conhecimentos por meio de projetos próprios,
-          aplicando conceitos como consumo de APIs, manipulação de dados,
-          componentes reutilizáveis e interfaces responsivas.
+          Desenvolvo projetos práticos utilizando React, Vue.js,
+          JavaScript, TypeScript e Tailwind CSS, aplicando conceitos
+          como componentização, consumo de APIs REST, gerenciamento
+          de dados e testes automatizados.
         </p>
 
         <p>
-          Meu objetivo é conquistar minha primeira oportunidade como Desenvolvedor
-          Front-End e continuar evoluindo profissionalmente.
+          Busco minha primeira oportunidade como Desenvolvedor
+          Front-End Júnior para aplicar meus conhecimentos,
+          contribuir com a equipe e continuar evoluindo
+          profissionalmente.
         </p>
       </div>
     </div>
@@ -56,7 +62,6 @@ p {
   text-align: justify;
 }
 
-/* TABLET */
 @media (max-width: 768px) {
   .sobre {
     padding: 80px 5%;
@@ -76,7 +81,6 @@ p {
   }
 }
 
-/* CELULAR */
 @media (max-width: 480px) {
   .sobre {
     padding: 65px 20px;
