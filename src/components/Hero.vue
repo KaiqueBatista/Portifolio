@@ -24,7 +24,7 @@
 
       <div class="botoes">
         <a
-          href="/Curriculo%20-%20Kaique%20Oliveira%20Batista%20dev%20jr.pdf"
+          href="/Curriculo_-_Kaique_Oliveira_Batista_dev_jr.pdf"
           class="botao principal"
           download
         >
